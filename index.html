@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ghafoor Ameri, IT Specialist focused on support, systems reliability, and user-first technical operations.">
+  <title>Ghafoor Ameri | IT Specialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-blur bg-blur-1" aria-hidden="true"></div>
+  <div class="bg-blur bg-blur-2" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top">GA</a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta" href="./Resume.pdf#toolbar=1" target="_blank" rel="noopener noreferrer" type="application/pdf">Resume</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <p class="eyebrow">IT Specialist Portfolio</p>
+      <h1>Ghafoor Ameri</h1>
+      <p class="lead">
+        I build dependable IT environments that keep people productive, systems stable, and operations moving.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Hire Me</a>
+        <a class="btn btn-secondary" href="./Resume.pdf#toolbar=1" target="_blank" rel="noopener noreferrer" type="application/pdf">Resume</a>
+      </div>
+      <div class="hero-stats" id="heroStats"></div>
+    </section>
+
+    <section class="panel reveal" id="about">
+      <div class="panel-head">
+        <p class="eyebrow">About</p>
+        <h2>Reliable support with a systems mindset</h2>
+      </div>
+      <p id="aboutText">
+        IT specialist focused on end-user support, troubleshooting, and operational continuity across modern workplace technology.
+      </p>
+    </section>
+
+    <section class="panel reveal" id="expertise">
+      <div class="panel-head">
+        <p class="eyebrow">Expertise</p>
+        <h2>What I deliver</h2>
+      </div>
+      <div class="chips" id="skillChips"></div>
+    </section>
+
+    <section class="panel reveal" id="education">
+      <div class="panel-head">
+        <p class="eyebrow">Education</p>
+        <h2>Academic background</h2>
+      </div>
+      <div class="education-list" id="educationList"></div>
+    </section>
+
+    <section class="panel reveal" id="experience">
+      <div class="panel-head">
+        <p class="eyebrow">Experience</p>
+        <h2>Career highlights</h2>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="panel reveal" id="projects">
+      <div class="panel-head">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Impact-driven projects</h2>
+      </div>
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="panel reveal contact" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s improve your IT operations</h2>
+        <p id="contactText">Open to IT support, help desk, and systems operations opportunities.</p>
+      </div>
+      <form class="contact-form" action="https://formspree.io/f/mdalyllp" method="POST">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button class="btn btn-primary" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ghafoor Ameri. Built with precision.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
