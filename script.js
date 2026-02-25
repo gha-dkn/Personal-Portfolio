@@ -9,7 +9,7 @@ const profile = {
   stats: [
     { value: "CS Student", label: "Academic + practical IT background" },
     { value: "Device Repair", label: "Chromebooks, laptops, desktops" },
-    { value: "UMD Transfer", label: "Application submitted" }
+    { value: "UMD Applicant", label: "Application submitted" }
   ],
   education: [
     {
