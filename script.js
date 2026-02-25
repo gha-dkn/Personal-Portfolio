@@ -15,7 +15,7 @@ const profile = {
     {
       school: "Montgomery College, Rockville, MD",
       credential: "Associate of Science in Computer Science",
-      period: "January 2025 - December 2025"
+      period: "January 2025 - May 2026"
     },
     {
       school: "Prince George's Community College (PGCC), Largo, MD",
